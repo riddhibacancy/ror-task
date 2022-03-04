@@ -6,8 +6,7 @@ Input: sentence = “       This   is   my  ruby string     practical  assignmen
 Expected output: 10
 =end
 def last_word_sentence(string)
-    str_arr=string.split(" ").to_a
-    p str_arr[-1].length
+    string.split.last.length
 end
 sentence = "       This   is   my  ruby string     practical  assignment   "
 last_word_sentence(sentence)
